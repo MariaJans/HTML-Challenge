@@ -1,0 +1,62 @@
+h1{
+    background-color: rgb(235, 92, 92);
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+    background-color: rgb(247, 127, 127);
+    
+}
+.chickenshawarma{
+
+   float: right;
+   position: relative; right: 40px;
+   border-style: double;
+   
+
+}
+body{
+    background-color: rgb(247, 210, 210);
+}
+.beefshawarma{
+    float: left;
+    border-style:double;
+    position: relative; left: 50px;
+}
+footer{
+    text-align: center;
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    height: 40px;
+    background-color: rgb(235, 92, 92);
+
+}
+.chicken{
+    position: relative; left: 40px;
+    border-radius: 50%;
+    width: 150px;
+}
+.beef{
+    position: relative; left: 40px;
+    border-radius: 50%;
+    width: 150px;
+    
+}
+.verticalmenu{
+    float: right;
+    position: relative; right: 330px;
+    width: 200px;
+}
+.verticalmenu a {
+    background-color: brown;
+    color: rgb(245, 238, 238);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+
+}
+.verticalmenu a.otherfood{
+    background-color: rgb(247, 127, 127);
+    color: rgb(238, 238, 245);
+}
